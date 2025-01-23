@@ -2,19 +2,20 @@
 
 ![ZKA](res/zka.svg)
 
-# ZKA DDK (Mark 1)
+# NeKernel DDK (Mark 1)
 
-Use this to write drivers for ZKA.
+Use this to write drivers for NeKernel.
 
 ## Installation:
 
-- MinGW/GCC for the Kernel and bootloader.
-- Netwide Assembler/LibCompiler to output COFF object code.
+- MinGW/GCC
+- Git
+- OpenBTB
 
 ### Start by cloning the DDK:
 
 ```
-git clone git@github.com:amlel-el-mahrouss/driver-kit.git
+git clone git@github.com:mediaswirl/driver-kit.git
 cd ddk
 ```
 
