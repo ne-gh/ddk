@@ -13,18 +13,18 @@
 #include <stddef.h>
 
 #if defined(__cplusplus)
-#define BOOL bool
-#define YES true
-#define NO false
+#define BOOL	  bool
+#define YES		  true
+#define NO		  false
 #define DK_EXTERN extern "C" __declspec(dllexport)
 #define nil		  nullptr
 #undef NULL
 #define NULL	 0
 #define DK_FINAL final
 #else
-#define BOOL char
-#define YES 1
-#define NO 0
+#define BOOL	  char
+#define YES		  1
+#define NO		  0
 #define DK_EXTERN extern __declspec(dllexport)
 #define nil		  ((void*)0)
 #undef NULL

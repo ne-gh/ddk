@@ -26,5 +26,5 @@ DK_EXTERN BOOL KernelCloseDevice(DDK_DEVICE_PTR device)
 		return NO;
 
 	KernelCall("ZkCloseDevice", 1, device, sizeof(DDK_DEVICE));
-  return YES;
+	return YES;
 }

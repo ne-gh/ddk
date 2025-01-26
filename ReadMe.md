@@ -15,7 +15,7 @@ Use this to write drivers for NeKernel.
 ### Start by cloning the DDK:
 
 ```
-git clone git@github.com:mediaswirl/driver-kit.git
+git clone git@github.com:ne-gh/driver-kit.git
 cd ddk
 ```
 
